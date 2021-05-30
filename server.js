@@ -14,7 +14,7 @@ app.post('/login', (req, res) => {
     const password = req.body.password;
     let userInfo = {}
 
-    if (username === 'mariaBarbosa0888' && password === 'Maria@2021') {
+    if (username === 'mariaBarbosa1111' && password === 'Maria@2021') {
         userInfo = {
             name: "Maria Leticia",
             firstName: "Maria",
@@ -22,7 +22,7 @@ app.post('/login', (req, res) => {
             accountNumber: "111111",
             taxId: "08882047440",
             address: "Some street",
-            userId: "mariaBarbosa0888",
+            userId: "mariaBarbosa1111",
             password: "Maria@2021",
             type: "customer",
           }
@@ -63,7 +63,7 @@ app.get('/claims', (req, res) => {
             "serviceLostDate": "2021-05-25",
             "gasReading": null,
             "description": "First claim",
-            "customerUserId": "mariaBarbosa0888",
+            "customerUserId": "mariaBarbosa1111",
             "date": "2021-05-30",
             "status": "NOT ATTENDED",
             "id": 1
@@ -73,7 +73,7 @@ app.get('/claims', (req, res) => {
             "serviceLostDate": null,
             "gasReading": "40",
             "description": "Second claim",
-            "customerUserId": "mariaBarbosa0888",
+            "customerUserId": "mariaBarbosa1111",
             "date": "2021-05-30",
             "status": "NOT ATTENDED",
             "id": 2
@@ -92,7 +92,7 @@ app.get('/claims/:id', (req, res) => {
             "serviceLostDate": "2021-05-25",
             "gasReading": null,
             "description": "First claim",
-            "customerUserId": "mariaBarbosa0888",
+            "customerUserId": "mariaBarbosa1111",
             "date": "2021-05-30",
             "status": "NOT ATTENDED",
             "id": 1
